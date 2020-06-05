@@ -1,0 +1,249 @@
+<%- include ("partials/header_state") %>
+
+
+<nav class = "navbar navbar-static-top navbar-expand-lg bg-light navbar-light">
+	<div class="container-fluid">
+		<div class = "navbar-header">
+			<a class = "navbar-brand" href = "/">U.S. COVID-19 Tracker<small>Realtime Updates for Everyone
+				</small></a>
+		</div>
+		
+		
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		<ul class="navbar-nav">
+		  <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Detailed Map by State
+			</a>
+			<div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+			  <a class="dropdown-item" href="/Alabama">Alabama</a>
+			  <a class="dropdown-item" href="/Alaska">Alaska</a>
+			  <a class="dropdown-item" href="/Arizona">Arizona</a>
+			  <a class="dropdown-item" href="/Arkansas">Arkansas</a>
+			  <a class="dropdown-item" href="/California">California</a>
+			  <a class="dropdown-item" href="/Colorado">Colorado</a>
+			  <a class="dropdown-item" href="/Connecticut">Connecticut</a>
+			  <a class="dropdown-item" href="/Delaware">Delaware</a>
+			  <a class="dropdown-item" href="/Florida">Florida</a>
+			  <a class="dropdown-item" href="/Georgia">Georgia</a>
+			  <a class="dropdown-item" href="/Hawaii">Hawaii</a>
+			  <a class="dropdown-item" href="/Idaho">Idaho</a>
+			  <a class="dropdown-item" href="/Illinois">Illinois</a>
+			  <a class="dropdown-item" href="/Indiana">Indiana</a>
+			  <a class="dropdown-item" href="/Iowa">Iowa</a>
+			  <a class="dropdown-item" href="/Kansas">Kansas</a>
+			  <a class="dropdown-item" href="/Kentucky">Kentucky</a>
+			  <a class="dropdown-item" href="/Louisiana">Louisiana</a>
+			  <a class="dropdown-item" href="/Maine">Maine</a>
+			  <a class="dropdown-item" href="/Maryland">Maryland</a>
+			  <a class="dropdown-item" href="/Massachusetts">Massachusetts</a>
+			  <a class="dropdown-item" href="/Michigan">Michigan</a>
+			  <a class="dropdown-item" href="/Minnesota">Minnesota</a>
+			  <a class="dropdown-item" href="/Mississippi">Mississippi</a>
+			  <a class="dropdown-item" href="/Missouri">Missouri</a>
+			  <a class="dropdown-item" href="/Montana">Montana</a>
+			  <a class="dropdown-item" href="/Nebraska">Nebraska</a>
+			  <a class="dropdown-item" href="/Nevada">Nevada</a>
+			  <a class="dropdown-item" href="/New Hampshire">New Hampshire</a>
+			  <a class="dropdown-item" href="/New Jersey">New Jersey</a>
+			  <a class="dropdown-item" href="/New Mexico">New Mexico</a>
+			  <a class="dropdown-item" href="/New York">New York</a>
+			  <a class="dropdown-item" href="/North Carolina">North Carolina</a>
+			  <a class="dropdown-item" href="/North Dakota">North Dakota</a>
+			  <a class="dropdown-item" href="/Ohio">Ohio</a>
+			  <a class="dropdown-item" href="/Oklahoma">Oklahoma</a>
+			  <a class="dropdown-item" href="/Oregon">Oregon</a>
+			  <a class="dropdown-item" href="/Pennsylvania">Pennsylvania</a>
+			  <a class="dropdown-item" href="/Rhode Island">Rhode Island</a>
+			  <a class="dropdown-item" href="/South Carolina">South Carolina</a>
+			  <a class="dropdown-item" href="/South Dakota">South Dakota</a>
+			  <a class="dropdown-item" href="/Tennessee">Tennessee</a>
+			  <a class="dropdown-item" href="/Texas">Texas</a>
+			  <a class="dropdown-item" href="/Utah">Utah</a>
+			  <a class="dropdown-item" href="/Vermont">Vermont</a>
+			  <a class="dropdown-item" href="/Virginia">Virginia</a>
+			  <a class="dropdown-item" href="/Washington">Washington</a>
+			  <a class="dropdown-item" href="/West Virginia">West Virginia</a>
+			  <a class="dropdown-item" href="/Wisconsin">Wisconsin</a>
+			  <a class="dropdown-item" href="/Wyoming">Wyoming</a>
+			</div>
+		  </li>
+		</ul>
+	  </div>
+		
+		
+	
+		<!--About button -->
+		<div class = "nav navbar-nav nav-right">
+			<a class="nav-link" href="/about">About</a>
+		</div>
+	</div>
+</nav>
+
+
+
+<div class="map-container">
+	<div id='map'></div>
+	
+	<div class='map-overlay' id='state-name'>
+		<div id="state-name-wrapper">
+			<h1><%= stateName  %> State</h1>
+		</div>
+	</div>
+	
+	<div class='map-overlay' id='features'>
+		<h2>COVID-19 Case Counts</h2>
+		<div id='prompt'><p>Hover over a county!</p></div>
+	</div>
+	<div class='map-overlay' id='legend-wrap'>
+		<div class ='legend-block' id='legend'></div>
+	</div>
+	
+	
+	<script>
+  	mapboxgl.accessToken = 'pk.eyJ1IjoiamVud3d3MTA4IiwiYSI6ImNrYW4wbTR0bzBiN2YzMW1vZ3F6dmJuMnoifQ.pYwf9laon0ZKdAuKgwo2Vg';
+  	var map = new mapboxgl.Map({
+    	container: 'map',
+    	style: 'mapbox://styles/mapbox/light-v9',
+		center: [<%= state_coord  %>],//initial geolocation
+		zoom: <%= state_zoom  %> //initial zoom
+		
+  	});
+	// Add navigation controls to the canvas (top right hand corner)
+	
+	map.addControl(new mapboxgl.NavigationControl());
+		
+		
+	map.on('load',function(){
+		// Add source for admin-1 Boundaries
+		map.addSource('county-data', {
+			type: 'geojson',
+			data: '/data/county.geojson'
+		});
+
+		map.addLayer({
+			id: 'county-color',
+			source: 'county-data',
+			type: 'fill',
+			//maxzoom: 6.5,
+			paint: {
+				'fill-color': [
+				'interpolate',
+				['linear'],
+				['get', 'Confirmed'],
+				0,'#ffffff',
+				100,
+				'#FAD7D9',
+				500,
+				'#F6BDC0',
+				1000,
+				'#F1959B',
+				5000,
+				'#F07470',
+				10000,
+				'#EA4C46',
+				50000,
+				'#DC1C13',
+				100000,
+				'#b10000'
+				],
+				'fill-opacity': 0.95
+				}
+		});
+		
+		
+		map.addLayer({
+			id: 'county-name',
+			source: 'county-data',
+			type: 'symbol',
+			layout: {
+				'text-field': ['upcase', ['get', 'NAME']],
+				'text-font': ['Ubuntu Mono Bold','Arial Unicode MS Regular'],
+				'text-size': 10,
+				'text-variable-anchor':["center", "top"],
+				'text-justify': 'center'
+			},
+			paint: {
+				'text-color': '#3a1313'
+			},
+		});
+		
+		map.addLayer({
+			id: 'county-line',
+			source: 'county-data',
+			type: 'line',
+			//maxzoom: 6.5,
+			paint: {
+				'line-color': '#A8A8A8'
+			}
+		});
+		
+		map.setFilter('county-color', ['==', ['get', 'STATE'], '<%= stateFIPS %>' ]);
+		map.setFilter('county-name', ['==', ['get', 'STATE'], '<%= stateFIPS %>' ]);
+		map.setFilter('county-line', ['==', ['get', 'STATE'], '<%= stateFIPS %>' ]);
+		
+		
+	});
+		
+		
+	//create a legand for the map
+	var layers = ['0-100','100-500', '500-1000', '1000-5000', '5000-10000', '10000-50000', '50000+'];
+	var colors = ['#FAD7D9' ,'#F6BDC0','#F1959B', '#F07470', '#EA4C46', '#DC1C13', '#c40000'];
+		
+	for (i = 0; i < layers.length; i++) {
+	  var layer = layers[i];
+	  var color = colors[i];
+	  var item = document.createElement('div');
+	  var key = document.createElement('span');
+	  key.className = 'legend-key';
+	  key.style.backgroundColor = color;
+
+	  var value = document.createElement('span');
+	  value.innerHTML = layer;
+	  item.appendChild(key);
+	  item.appendChild(value);
+	  legend.appendChild(item);
+	}
+	
+		
+		
+		
+	map.on('mousemove', function(e){
+		if (!map.loaded()) return;
+		map.getCanvas().style.cursor = 'pointer';
+	  	var state = map.queryRenderedFeatures(e.point, {
+			layers: ['county-color']
+		});
+
+		 if (state.length>0) {
+			 if (state[0].properties.Confirmed == undefined){
+				 document.getElementById('prompt').innerHTML = '<h3><strong>' + state[0].properties.NAME + ' County </strong></h3><p><strong><em> Data for this county is unavailable at this time</em></p>';
+			 }else{
+				 document.getElementById('prompt').innerHTML = '<h3><strong>' + state[0].properties.NAME + ' County </strong></h3><p><strong><em>Confirmed: ' + state[0].properties.Confirmed + '</strong> people</em></p><p><strong><em>Deaths: ' + state[0].properties.Deaths + '</strong> people</em></p><p><strong><em>Active: ' + state[0].properties.Active + '</strong> people</em></p>';
+			 }
+			
+		} else {
+			document.getElementById('prompt').innerHTML = '<p>Hover over a county!</p>';
+		}
+	});
+		
+
+	
+		
+	</script>
+</div> 
+
+<div class="update-wrap">
+	<div class="update-time">
+		Last updated on <%= last_update  %> EDT
+	</div>
+	<div class="data-source">
+		Data Source: <a href="https://github.com/CSSEGISandData/COVID-19">Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE)</a>
+	</div>
+</div>	
+
+
+<%- include ("partials/footer") %>

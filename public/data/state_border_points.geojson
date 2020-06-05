@@ -1,0 +1,1573 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Alabama",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "17952",
+        "Deaths": "630",
+        "Recovered": "9355",
+        "Active": "7967.0",
+        "FIPS": "1",
+        "Incident_Rate": "366.12936285292113",
+        "People_Tested": "217553",
+        "People_Hospitalized": "1844",
+        "Mortality_Rate": "3.5093582887700534",
+        "UID": "84000001",
+        "ISO3": "USA",
+        "Testing_Rate": "4436.973110335425",
+        "Hospitalization_Rate": "10.271836007130124"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.9023,
+          32.3182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Alaska",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "459",
+        "Deaths": "10",
+        "Recovered": "368",
+        "Active": "81.0",
+        "FIPS": "2",
+        "Incident_Rate": "62.74391869262998",
+        "People_Tested": "51695",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "2.178649237472767",
+        "UID": "84000002",
+        "ISO3": "USA",
+        "Testing_Rate": "7066.5509298812785",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4044,
+          61.3707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "American Samoa",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "0",
+        "Deaths": "0",
+        "Recovered": "",
+        "Active": "0.0",
+        "FIPS": "60",
+        "Incident_Rate": "0.0",
+        "People_Tested": "174",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "",
+        "UID": "16",
+        "ISO3": "ASM",
+        "Testing_Rate": "312.7190381193724",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.132,
+          -14.270999999999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Arizona",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "19936",
+        "Deaths": "907",
+        "Recovered": "4761",
+        "Active": "14268.0",
+        "FIPS": "4",
+        "Incident_Rate": "273.8944239760936",
+        "People_Tested": "225206",
+        "People_Hospitalized": "2998",
+        "Mortality_Rate": "4.549558587479936",
+        "UID": "84000004",
+        "ISO3": "USA",
+        "Testing_Rate": "3094.0342920325106",
+        "Hospitalization_Rate": "15.03812199036918"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4312,
+          33.7298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Arkansas",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "7253",
+        "Deaths": "133",
+        "Recovered": "5275",
+        "Active": "1845.0",
+        "FIPS": "5",
+        "Incident_Rate": "240.34032693972173",
+        "People_Tested": "129515",
+        "People_Hospitalized": "711",
+        "Mortality_Rate": "1.833723976285675",
+        "UID": "84000005",
+        "ISO3": "USA",
+        "Testing_Rate": "4291.69687627162",
+        "Hospitalization_Rate": "9.802840204053496"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.3731,
+          34.9697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "California",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "111951",
+        "Deaths": "4172",
+        "Recovered": "",
+        "Active": "107779.0",
+        "FIPS": "6",
+        "Incident_Rate": "283.3325778709034",
+        "People_Tested": "1944848",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "3.7266304008003504",
+        "UID": "84000006",
+        "ISO3": "USA",
+        "Testing_Rate": "4922.142699994379",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6816,
+          36.1162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Colorado",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "26364",
+        "Deaths": "1445",
+        "Recovered": "3919",
+        "Active": "21000.0",
+        "FIPS": "8",
+        "Incident_Rate": "457.8087969304375",
+        "People_Tested": "180627",
+        "People_Hospitalized": "4333",
+        "Mortality_Rate": "5.480958883325747",
+        "UID": "84000008",
+        "ISO3": "USA",
+        "Testing_Rate": "3136.5737203441868",
+        "Hospitalization_Rate": "16.435290547716583"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.3111,
+          39.0598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Connecticut",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "42201",
+        "Deaths": "3944",
+        "Recovered": "7127",
+        "Active": "31130.0",
+        "FIPS": "9",
+        "Incident_Rate": "1183.663475058249",
+        "People_Tested": "250046",
+        "People_Hospitalized": "12538",
+        "Mortality_Rate": "9.345750100708514",
+        "UID": "84000009",
+        "ISO3": "USA",
+        "Testing_Rate": "7013.348434501907",
+        "Hospitalization_Rate": "29.710196440842633"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7554,
+          41.5978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Delaware",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "9498",
+        "Deaths": "366",
+        "Recovered": "5266",
+        "Active": "3866.0",
+        "FIPS": "10",
+        "Incident_Rate": "975.3903409861116",
+        "People_Tested": "60671",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "3.8534428300694885",
+        "UID": "84000010",
+        "ISO3": "USA",
+        "Testing_Rate": "6230.565106124276",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5071,
+          39.3185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "District of Columbia",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "8801",
+        "Deaths": "466",
+        "Recovered": "1116",
+        "Active": "7219.0",
+        "FIPS": "11",
+        "Incident_Rate": "1247.0439207140216",
+        "People_Tested": "46483",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "5.294852857629815",
+        "UID": "84000011",
+        "ISO3": "USA",
+        "Testing_Rate": "6586.33593529711",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0268,
+          38.8974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Florida",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "56163",
+        "Deaths": "2451",
+        "Recovered": "",
+        "Active": "53712.0",
+        "FIPS": "12",
+        "Incident_Rate": "261.4940298412258",
+        "People_Tested": "1021349",
+        "People_Hospitalized": "10453",
+        "Mortality_Rate": "4.364083115218204",
+        "UID": "84000012",
+        "ISO3": "USA",
+        "Testing_Rate": "4755.38461058537",
+        "Hospitalization_Rate": "18.611897512597263"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6868,
+          27.7663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Georgia",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "47063",
+        "Deaths": "2053",
+        "Recovered": "",
+        "Active": "45010.0",
+        "FIPS": "13",
+        "Incident_Rate": "443.261985511927",
+        "People_Tested": "465525",
+        "People_Hospitalized": "7946",
+        "Mortality_Rate": "4.362237851390689",
+        "UID": "84000013",
+        "ISO3": "USA",
+        "Testing_Rate": "4384.538508073004",
+        "Hospitalization_Rate": "16.883751567048424"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6431,
+          33.0406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Guam",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "172",
+        "Deaths": "5",
+        "Recovered": "144",
+        "Active": "23.0",
+        "FIPS": "66",
+        "Incident_Rate": "104.73180741525553",
+        "People_Tested": "6102",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "2.9069767441860463",
+        "UID": "316",
+        "ISO3": "GUM",
+        "Testing_Rate": "3715.5435398133095",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7937,
+          13.4443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Hawaii",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "652",
+        "Deaths": "17",
+        "Recovered": "606",
+        "Active": "29.0",
+        "FIPS": "15",
+        "Incident_Rate": "46.049360394159926",
+        "People_Tested": "54620",
+        "People_Hospitalized": "83",
+        "Mortality_Rate": "2.607361963190184",
+        "UID": "84000015",
+        "ISO3": "USA",
+        "Testing_Rate": "3857.693350811373",
+        "Hospitalization_Rate": "12.730061349693251"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.4983,
+          21.0943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Idaho",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "2839",
+        "Deaths": "82",
+        "Recovered": "2248",
+        "Active": "509.0",
+        "FIPS": "16",
+        "Incident_Rate": "158.86383539490728",
+        "People_Tested": "46697",
+        "People_Hospitalized": "242",
+        "Mortality_Rate": "2.8883409651285663",
+        "UID": "84000016",
+        "ISO3": "USA",
+        "Testing_Rate": "2613.0554848312736",
+        "Hospitalization_Rate": "8.524128214159916"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.4788,
+          44.2405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Illinois",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "120260",
+        "Deaths": "5390",
+        "Recovered": "",
+        "Active": "114870.0",
+        "FIPS": "17",
+        "Incident_Rate": "949.0348703631468",
+        "People_Tested": "898259",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "4.481955762514552",
+        "UID": "84000017",
+        "ISO3": "USA",
+        "Testing_Rate": "7088.6339066816045",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9861,
+          40.3495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Indiana",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "34574",
+        "Deaths": "2134",
+        "Recovered": "21704",
+        "Active": "10736.0",
+        "FIPS": "18",
+        "Incident_Rate": "513.560239201963",
+        "People_Tested": "261546",
+        "People_Hospitalized": "5285",
+        "Mortality_Rate": "6.172268178399953",
+        "UID": "84000018",
+        "ISO3": "USA",
+        "Testing_Rate": "3884.9894811799795",
+        "Hospitalization_Rate": "15.28605310348817"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2583,
+          39.8494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Iowa",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "19552",
+        "Deaths": "535",
+        "Recovered": "11147",
+        "Active": "7870.0",
+        "FIPS": "19",
+        "Incident_Rate": "619.7009892015075",
+        "People_Tested": "156296",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "2.736292962356792",
+        "UID": "84000019",
+        "ISO3": "USA",
+        "Testing_Rate": "4953.804511468842",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2105,
+          42.0115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Kansas",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "9700",
+        "Deaths": "215",
+        "Recovered": "547",
+        "Active": "8938.0",
+        "FIPS": "20",
+        "Incident_Rate": "332.95415461567137",
+        "People_Tested": "94949",
+        "People_Hospitalized": "842",
+        "Mortality_Rate": "2.216494845360825",
+        "UID": "84000020",
+        "ISO3": "USA",
+        "Testing_Rate": "3259.1406212993174",
+        "Hospitalization_Rate": "8.68041237113402"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7265,
+          38.5266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Kentucky",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "9704",
+        "Deaths": "431",
+        "Recovered": "3232",
+        "Active": "6041.0",
+        "FIPS": "21",
+        "Incident_Rate": "217.20479542706013",
+        "People_Tested": "213753",
+        "People_Hospitalized": "2272",
+        "Mortality_Rate": "4.441467436108821",
+        "UID": "84000021",
+        "ISO3": "USA",
+        "Testing_Rate": "4784.436998858242",
+        "Hospitalization_Rate": "23.41302555647156"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6701,
+          37.6681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Louisiana",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "39916",
+        "Deaths": "2791",
+        "Recovered": "28700",
+        "Active": "8425.0",
+        "FIPS": "22",
+        "Incident_Rate": "858.6312923308711",
+        "People_Tested": "375109",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "6.992183585529612",
+        "UID": "84000022",
+        "ISO3": "USA",
+        "Testing_Rate": "8068.952937041306",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.8678,
+          31.1695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Maine",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "2325",
+        "Deaths": "89",
+        "Recovered": "1552",
+        "Active": "684.0",
+        "FIPS": "23",
+        "Incident_Rate": "172.96378845003616",
+        "People_Tested": "49609",
+        "People_Hospitalized": "283",
+        "Mortality_Rate": "3.827956989247312",
+        "UID": "84000023",
+        "ISO3": "USA",
+        "Testing_Rate": "3690.5636908463844",
+        "Hospitalization_Rate": "12.172043010752688"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.3819,
+          44.6939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Maryland",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "52778",
+        "Deaths": "2532",
+        "Recovered": "3764",
+        "Active": "46482.0",
+        "FIPS": "24",
+        "Incident_Rate": "872.986992364796",
+        "People_Tested": "301881",
+        "People_Hospitalized": "8738",
+        "Mortality_Rate": "4.797453484406382",
+        "UID": "84000024",
+        "ISO3": "USA",
+        "Testing_Rate": "4993.334083180056",
+        "Hospitalization_Rate": "16.556140816249194"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8021,
+          39.0639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Massachusetts",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "96965",
+        "Deaths": "6846",
+        "Recovered": "",
+        "Active": "90119.0",
+        "FIPS": "25",
+        "Incident_Rate": "1406.81839384038",
+        "People_Tested": "592853",
+        "People_Hospitalized": "9823",
+        "Mortality_Rate": "7.060279482287423",
+        "UID": "84000025",
+        "ISO3": "USA",
+        "Testing_Rate": "8601.418091511894",
+        "Hospitalization_Rate": "10.130459444129325"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5301,
+          42.2302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Michigan",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "57397",
+        "Deaths": "5491",
+        "Recovered": "38099",
+        "Active": "13807.0",
+        "FIPS": "26",
+        "Incident_Rate": "574.7253615426755",
+        "People_Tested": "554630",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "9.566702092443856",
+        "UID": "84000026",
+        "ISO3": "USA",
+        "Testing_Rate": "5553.599095290941",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5361,
+          43.3266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Minnesota",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "24850",
+        "Deaths": "1050",
+        "Recovered": "18695",
+        "Active": "5105.0",
+        "FIPS": "27",
+        "Incident_Rate": "440.6315873092429",
+        "People_Tested": "249519",
+        "People_Hospitalized": "3047",
+        "Mortality_Rate": "4.225352112676056",
+        "UID": "84000027",
+        "ISO3": "USA",
+        "Testing_Rate": "4424.384427920119",
+        "Hospitalization_Rate": "12.261569416498993"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9002,
+          45.6945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Mississippi",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "15523",
+        "Deaths": "734",
+        "Recovered": "9401",
+        "Active": "5388.0",
+        "FIPS": "28",
+        "Incident_Rate": "521.580068739838",
+        "People_Tested": "171837",
+        "People_Hospitalized": "2272",
+        "Mortality_Rate": "4.728467435418412",
+        "UID": "84000028",
+        "ISO3": "USA",
+        "Testing_Rate": "5773.803663727857",
+        "Hospitalization_Rate": "14.6363460671262"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6787,
+          32.7416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Missouri",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "13438",
+        "Deaths": "776",
+        "Recovered": "",
+        "Active": "12662.0",
+        "FIPS": "29",
+        "Incident_Rate": "218.9516520601138",
+        "People_Tested": "193561",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "5.774668849531181",
+        "UID": "84000029",
+        "ISO3": "USA",
+        "Testing_Rate": "3153.780378360447",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.2884,
+          38.4561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Montana",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "515",
+        "Deaths": "17",
+        "Recovered": "456",
+        "Active": "42.0",
+        "FIPS": "30",
+        "Incident_Rate": "48.185872089432976",
+        "People_Tested": "39798",
+        "People_Hospitalized": "67",
+        "Mortality_Rate": "3.3009708737864076",
+        "UID": "84000030",
+        "ISO3": "USA",
+        "Testing_Rate": "3723.6919173111723",
+        "Hospitalization_Rate": "13.009708737864077"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.4544,
+          46.9219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Nebraska",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "14101",
+        "Deaths": "170",
+        "Recovered": "",
+        "Active": "13931.0",
+        "FIPS": "31",
+        "Incident_Rate": "728.9568694918548",
+        "People_Tested": "101142",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "1.205588256152046",
+        "UID": "84000031",
+        "ISO3": "USA",
+        "Testing_Rate": "5228.576391330061",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2681,
+          41.1254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Nevada",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "8628",
+        "Deaths": "417",
+        "Recovered": "428",
+        "Active": "7783.0",
+        "FIPS": "32",
+        "Incident_Rate": "280.11568245244723",
+        "People_Tested": "142560",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "4.833101529902643",
+        "UID": "84000032",
+        "ISO3": "USA",
+        "Testing_Rate": "4628.337006307473",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0554,
+          38.3135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "New Hampshire",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "4651",
+        "Deaths": "245",
+        "Recovered": "2940",
+        "Active": "1466.0",
+        "FIPS": "33",
+        "Incident_Rate": "342.05798143870277",
+        "People_Tested": "70280",
+        "People_Hospitalized": "449",
+        "Mortality_Rate": "5.267684368952914",
+        "UID": "84000033",
+        "ISO3": "USA",
+        "Testing_Rate": "5168.74541722469",
+        "Hospitalization_Rate": "9.653837884325952"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5639,
+          43.4525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "New Jersey",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "160445",
+        "Deaths": "11698",
+        "Recovered": "26560",
+        "Active": "122187.0",
+        "FIPS": "34",
+        "Incident_Rate": "1806.367573762777",
+        "People_Tested": "746145",
+        "People_Hospitalized": "17197",
+        "Mortality_Rate": "7.29097198416903",
+        "UID": "84000034",
+        "ISO3": "USA",
+        "Testing_Rate": "8400.462048211082",
+        "Hospitalization_Rate": "10.718314687276013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.521,
+          40.2989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "New Mexico",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "7689",
+        "Deaths": "356",
+        "Recovered": "2835",
+        "Active": "4498.0",
+        "FIPS": "35",
+        "Incident_Rate": "366.6965689619897",
+        "People_Tested": "194447",
+        "People_Hospitalized": "1317",
+        "Mortality_Rate": "4.629990896085316",
+        "UID": "84000035",
+        "ISO3": "USA",
+        "Testing_Rate": "9273.383761861363",
+        "Hospitalization_Rate": "17.128365197034725"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2485,
+          34.8405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "New York",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "370770",
+        "Deaths": "29784",
+        "Recovered": "65934",
+        "Active": "275052.0",
+        "FIPS": "36",
+        "Incident_Rate": "1905.923547878972",
+        "People_Tested": "2063825",
+        "People_Hospitalized": "89590",
+        "Mortality_Rate": "8.033012379642367",
+        "UID": "84000036",
+        "ISO3": "USA",
+        "Testing_Rate": "10608.983105972218",
+        "Hospitalization_Rate": "24.163227877120587"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9481,
+          42.1657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "North Carolina",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "28785",
+        "Deaths": "937",
+        "Recovered": "14954",
+        "Active": "12894.0",
+        "FIPS": "37",
+        "Incident_Rate": "274.45432359237395",
+        "People_Tested": "416289",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "3.2551676220253603",
+        "UID": "84000037",
+        "ISO3": "USA",
+        "Testing_Rate": "3969.1615742208014",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8064,
+          35.6301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "North Dakota",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "2577",
+        "Deaths": "61",
+        "Recovered": "1959",
+        "Active": "557.0",
+        "FIPS": "38",
+        "Incident_Rate": "338.16146192829456",
+        "People_Tested": "72040",
+        "People_Hospitalized": "167",
+        "Mortality_Rate": "2.36709351959643",
+        "UID": "84000038",
+        "ISO3": "USA",
+        "Testing_Rate": "9453.299075403314",
+        "Hospitalization_Rate": "6.480403570042685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.78399999999999,
+          47.5289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Northern Mariana Islands",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "22",
+        "Deaths": "2",
+        "Recovered": "15",
+        "Active": "5.0",
+        "FIPS": "69",
+        "Incident_Rate": "39.895546206296245",
+        "People_Tested": "6173",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "9.090909090909092",
+        "UID": "580",
+        "ISO3": "MNP",
+        "Testing_Rate": "11194.327578703032",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6739,
+          15.0979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Ohio",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "35513",
+        "Deaths": "2155",
+        "Recovered": "",
+        "Active": "33358.0",
+        "FIPS": "39",
+        "Incident_Rate": "303.8129539485504",
+        "People_Tested": "390908",
+        "People_Hospitalized": "6049",
+        "Mortality_Rate": "6.068200377326613",
+        "UID": "84000039",
+        "ISO3": "USA",
+        "Testing_Rate": "3344.209562755045",
+        "Hospitalization_Rate": "17.033199110185002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7649,
+          40.3888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Oklahoma",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "6418",
+        "Deaths": "334",
+        "Recovered": "5492",
+        "Active": "592.0",
+        "FIPS": "40",
+        "Incident_Rate": "162.19476968620694",
+        "People_Tested": "193206",
+        "People_Hospitalized": "985",
+        "Mortality_Rate": "5.204113430975382",
+        "UID": "84000040",
+        "ISO3": "USA",
+        "Testing_Rate": "4882.674146462029",
+        "Hospitalization_Rate": "15.34746026799626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9289,
+          35.5653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Oregon",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "4243",
+        "Deaths": "153",
+        "Recovered": "2152",
+        "Active": "1938.0",
+        "FIPS": "41",
+        "Incident_Rate": "100.59897049057349",
+        "People_Tested": "129201",
+        "People_Hospitalized": "786",
+        "Mortality_Rate": "3.6059391939665333",
+        "UID": "84000041",
+        "ISO3": "USA",
+        "Testing_Rate": "3063.2777719426317",
+        "Hospitalization_Rate": "18.52462880037709"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0709,
+          44.571999999999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Pennsylvania",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "76129",
+        "Deaths": "5555",
+        "Recovered": "48190",
+        "Active": "22384.0",
+        "FIPS": "42",
+        "Incident_Rate": "594.6654070707294",
+        "People_Tested": "455657",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "7.296825125773358",
+        "UID": "84000042",
+        "ISO3": "USA",
+        "Testing_Rate": "3559.2672357396964",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2098,
+          40.5908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Puerto Rico",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "3776",
+        "Deaths": "136",
+        "Recovered": "",
+        "Active": "3640.0",
+        "FIPS": "72",
+        "Incident_Rate": "128.7239961164625",
+        "People_Tested": "3776",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "3.6016949152542375",
+        "UID": "630",
+        "ISO3": "PRI",
+        "Testing_Rate": "128.7239961164625",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5901,
+          18.2208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Rhode Island",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "14928",
+        "Deaths": "718",
+        "Recovered": "1252",
+        "Active": "12958.0",
+        "FIPS": "44",
+        "Incident_Rate": "1409.1513657761614",
+        "People_Tested": "154493",
+        "People_Hospitalized": "1701",
+        "Mortality_Rate": "4.809753483386924",
+        "UID": "84000044",
+        "ISO3": "USA",
+        "Testing_Rate": "14583.602756756196",
+        "Hospitalization_Rate": "11.394694533762058"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5118,
+          41.6809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "South Carolina",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "11861",
+        "Deaths": "494",
+        "Recovered": "6459",
+        "Active": "4908.0",
+        "FIPS": "45",
+        "Incident_Rate": "230.3682045652565",
+        "People_Tested": "200216",
+        "People_Hospitalized": "1634",
+        "Mortality_Rate": "4.164910209931709",
+        "UID": "84000045",
+        "ISO3": "USA",
+        "Testing_Rate": "3888.6603528570436",
+        "Hospitalization_Rate": "13.776241463620268"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.945,
+          33.8569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "South Dakota",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "4993",
+        "Deaths": "62",
+        "Recovered": "3837",
+        "Active": "1094.0",
+        "FIPS": "46",
+        "Incident_Rate": "564.3982596684147",
+        "People_Tested": "44128",
+        "People_Hospitalized": "432",
+        "Mortality_Rate": "1.2417384338073303",
+        "UID": "84000046",
+        "ISO3": "USA",
+        "Testing_Rate": "4988.136671870178",
+        "Hospitalization_Rate": "8.652112958141398"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.4388,
+          44.2998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Tennessee",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "22566",
+        "Deaths": "364",
+        "Recovered": "15300",
+        "Active": "6902.0",
+        "FIPS": "47",
+        "Incident_Rate": "330.43527665278407",
+        "People_Tested": "435977",
+        "People_Hospitalized": "1750",
+        "Mortality_Rate": "1.6130461756625012",
+        "UID": "84000047",
+        "ISO3": "USA",
+        "Testing_Rate": "6384.037073883313",
+        "Hospitalization_Rate": "7.7550296906851015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6923,
+          35.7478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Texas",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "64652",
+        "Deaths": "1675",
+        "Recovered": "42423",
+        "Active": "20554.0",
+        "FIPS": "48",
+        "Incident_Rate": "222.96960040634738",
+        "People_Tested": "951865",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "2.5907937882818786",
+        "UID": "84000048",
+        "ISO3": "USA",
+        "Testing_Rate": "3282.7593684771987",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5635,
+          31.0545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Utah",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "9797",
+        "Deaths": "113",
+        "Recovered": "6137",
+        "Active": "3547.0",
+        "FIPS": "49",
+        "Incident_Rate": "305.58728467434696",
+        "People_Tested": "213914",
+        "People_Hospitalized": "775",
+        "Mortality_Rate": "1.1534143105032153",
+        "UID": "84000049",
+        "ISO3": "USA",
+        "Testing_Rate": "6672.389345088114",
+        "Hospitalization_Rate": "7.910584872920282"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8624,
+          40.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Vermont",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "981",
+        "Deaths": "55",
+        "Recovered": "873",
+        "Active": "53.0",
+        "FIPS": "50",
+        "Incident_Rate": "157.2143098676419",
+        "People_Tested": "33970",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "5.606523955147808",
+        "UID": "84000050",
+        "ISO3": "USA",
+        "Testing_Rate": "5444.006224468701",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7107,
+          44.0459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Virgin Islands",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "69",
+        "Deaths": "6",
+        "Recovered": "61",
+        "Active": "2.0",
+        "FIPS": "78",
+        "Incident_Rate": "64.32486855352948",
+        "People_Tested": "1702",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "8.695652173913043",
+        "UID": "850",
+        "ISO3": "VIR",
+        "Testing_Rate": "1586.6800909870603",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8963,
+          18.3358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Virginia",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "44607",
+        "Deaths": "1375",
+        "Recovered": "5868",
+        "Active": "37364.0",
+        "FIPS": "51",
+        "Incident_Rate": "522.6044251087719",
+        "People_Tested": "315391",
+        "People_Hospitalized": "7326",
+        "Mortality_Rate": "3.0824758445983815",
+        "UID": "84000051",
+        "ISO3": "USA",
+        "Testing_Rate": "3695.0418597861476",
+        "Hospitalization_Rate": "16.423431300020177"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.17,
+          37.7693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Washington",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "21702",
+        "Deaths": "1118",
+        "Recovered": "",
+        "Active": "20584.0",
+        "FIPS": "53",
+        "Incident_Rate": "284.994155531798",
+        "People_Tested": "354354",
+        "People_Hospitalized": "3480",
+        "Mortality_Rate": "5.151598930974104",
+        "UID": "84000053",
+        "ISO3": "USA",
+        "Testing_Rate": "4653.433738333552",
+        "Hospitalization_Rate": "16.035388443461432"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4905,
+          47.4009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "West Virginia",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "2010",
+        "Deaths": "75",
+        "Recovered": "1303",
+        "Active": "632.0",
+        "FIPS": "54",
+        "Incident_Rate": "112.15597827633559",
+        "People_Tested": "97622",
+        "People_Hospitalized": "",
+        "Mortality_Rate": "3.7313432835820897",
+        "UID": "84000054",
+        "ISO3": "USA",
+        "Testing_Rate": "5447.2094086032",
+        "Hospitalization_Rate": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9545,
+          38.4912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Wisconsin",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "18403",
+        "Deaths": "592",
+        "Recovered": "11646",
+        "Active": "6165.0",
+        "FIPS": "55",
+        "Incident_Rate": "316.0705643035198",
+        "People_Tested": "268506",
+        "People_Hospitalized": "2583",
+        "Mortality_Rate": "3.216866815193175",
+        "UID": "84000055",
+        "ISO3": "USA",
+        "Testing_Rate": "4611.576533113128",
+        "Hospitalization_Rate": "14.03575503993914"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6165,
+          44.2685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Province_State": "Wyoming",
+        "Country_Region": "US",
+        "Last_Update": "2020-06-01 02:32:54",
+        "Confirmed": "903",
+        "Deaths": "16",
+        "Recovered": "658",
+        "Active": "229.0",
+        "FIPS": "56",
+        "Incident_Rate": "156.0234916433265",
+        "People_Tested": "24393",
+        "People_Hospitalized": "85",
+        "Mortality_Rate": "1.7718715393133997",
+        "UID": "84000056",
+        "ISO3": "USA",
+        "Testing_Rate": "4214.707676252119",
+        "Hospitalization_Rate": "9.413067552602437"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.3025,
+          42.756
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+.map-overlay#legend-wrap {
+  display: block;
+  position:absolute;
+  z-index:100;
+  right:3%;
+  bottom:5%;
+  text-align:left;
+  font-size:12px;
+  height: 140px;
+  width: 120px;
+  background-color: white;
+}
+
+h1{
+  font-size:1.4em;
+  font-weight:700;
+  color: rgb(56,56,56);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#state-name-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+}
+
+.map-overlay#state-name{
+  display: block;
+  position: absolute;
+  z-index:100;
+  left:1%;
+  top:1%;
+  height: 130px;
+  width: 200px;
+  background-color: white;
+}
