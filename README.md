@@ -1,1 +1,1 @@
-# COVID-19Map
+# U.S COVID-19 Tracker
