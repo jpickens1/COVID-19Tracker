@@ -48,8 +48,6 @@ let county_data_url = county_data_base_url+ current_time+'.csv';
 let last_update;
 
 
-
-
  
 app.get("/",function(req,res){
 	needle.get(state_data_url, function(error, response) {
@@ -74,13 +72,15 @@ app.get("/",function(req,res){
 				state_border_data['features'].forEach(function(state){
 					var fips_raw= state['properties']['GEO_ID'];
 					var fips_target = String(Number(fips_raw.slice(fips_raw.length - 2)));
+					console.log("fips target:",fips_target);
 					
 					
 					data['features'].forEach(function(location){
-					if (location['properties']['FIPS'] ==fips_target){
-						state['properties']['Confirmed'] = Number(location['properties']['Confirmed']);
-						state['properties']['Deaths'] = Number(location['properties']['Deaths']);
-						state['properties']['Active'] = Number(location['properties']['Active']);
+						if (parseInt(location['properties']['FIPS']) ==fips_target){
+							state['properties']['Confirmed'] = Number(location['properties']['Confirmed']);
+							state['properties']['Deaths'] = Number(location['properties']['Deaths']);
+							state['properties']['Active'] = Number(location['properties']['Active']);
+
 						
 						}
 					});
@@ -186,7 +186,7 @@ app.get("/:stateName",function(req,res){
 });
 
 
-
+//oritinal port
 
 app.listen(process.env.PORT, function(){
 	console.log("The CoronavirusMap Server Has Started!")
