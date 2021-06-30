@@ -17,7 +17,7 @@
     "got": "^11.1.4",
     "moment-timezone": "^0.5.31",
     "needle": "^2.5.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "urllib": "^2.35.0"
   }
 }
