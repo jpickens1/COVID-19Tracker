@@ -1,0 +1,78 @@
+html
+{
+ height: 100%;
+}
+body {
+  /*padding-top: 50px;*/
+  font-family: 'Play', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+.navbar {
+  min-height: 10px;
+}
+
+.navbar-brand {
+  text-align:center;
+  line-height:10px;
+  font-size:22px;
+  font-weight:800;
+  padding-top:10px;
+  padding-bottom:5px;
+}
+
+.navbar-brand small{
+  display:block;
+  font-size:12px;
+  padding-top:10px;
+  padding-bottom:5px;
+}
+
+
+.navbar-nav#dropdown-title{
+	margin-left:30%;
+}
+
+#navbarDropdownMenuLink{
+	color: rgb(56,56,56);
+	font-weight: bold;
+}
+
+
+
+.dropdown-menu{
+  max-height:200px;
+  overflow-y: scroll;
+}
+
+
+
+
+h3 {
+  font-size: 1em;
+  margin: 10px;
+  color:black;
+}
+
+h2{
+	color: rgb(56,56,56);
+	margin: 10px;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+p {
+  font-size: 0.85em;
+  margin: 10px;
+  justify-content: space-between;
+  color: black;
+}

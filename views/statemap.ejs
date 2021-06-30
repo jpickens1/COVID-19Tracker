@@ -1,96 +1,13 @@
-<%- include ("partials/header_state") %>
-
-
-<nav class = "navbar navbar-static-top navbar-expand-lg bg-light navbar-light">
-	<div class="container-fluid">
-		<div class = "navbar-header">
-			<a class = "navbar-brand" href = "/">U.S. COVID-19 Tracker<small>Realtime Updates for Everyone
-				</small></a>
-		</div>
-		
-		
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-		<ul class="navbar-nav" id="dropdown-title">
-		  <li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			  Detailed Map by State
-			</a>
-			<div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-			  <a class="dropdown-item" href="/Alabama">Alabama</a>
-			  <a class="dropdown-item" href="/Alaska">Alaska</a>
-			  <a class="dropdown-item" href="/Arizona">Arizona</a>
-			  <a class="dropdown-item" href="/Arkansas">Arkansas</a>
-			  <a class="dropdown-item" href="/California">California</a>
-			  <a class="dropdown-item" href="/Colorado">Colorado</a>
-			  <a class="dropdown-item" href="/Connecticut">Connecticut</a>
-			  <a class="dropdown-item" href="/Delaware">Delaware</a>
-			  <a class="dropdown-item" href="/Florida">Florida</a>
-			  <a class="dropdown-item" href="/Georgia">Georgia</a>
-			  <a class="dropdown-item" href="/Hawaii">Hawaii</a>
-			  <a class="dropdown-item" href="/Idaho">Idaho</a>
-			  <a class="dropdown-item" href="/Illinois">Illinois</a>
-			  <a class="dropdown-item" href="/Indiana">Indiana</a>
-			  <a class="dropdown-item" href="/Iowa">Iowa</a>
-			  <a class="dropdown-item" href="/Kansas">Kansas</a>
-			  <a class="dropdown-item" href="/Kentucky">Kentucky</a>
-			  <a class="dropdown-item" href="/Louisiana">Louisiana</a>
-			  <a class="dropdown-item" href="/Maine">Maine</a>
-			  <a class="dropdown-item" href="/Maryland">Maryland</a>
-			  <a class="dropdown-item" href="/Massachusetts">Massachusetts</a>
-			  <a class="dropdown-item" href="/Michigan">Michigan</a>
-			  <a class="dropdown-item" href="/Minnesota">Minnesota</a>
-			  <a class="dropdown-item" href="/Mississippi">Mississippi</a>
-			  <a class="dropdown-item" href="/Missouri">Missouri</a>
-			  <a class="dropdown-item" href="/Montana">Montana</a>
-			  <a class="dropdown-item" href="/Nebraska">Nebraska</a>
-			  <a class="dropdown-item" href="/Nevada">Nevada</a>
-			  <a class="dropdown-item" href="/New Hampshire">New Hampshire</a>
-			  <a class="dropdown-item" href="/New Jersey">New Jersey</a>
-			  <a class="dropdown-item" href="/New Mexico">New Mexico</a>
-			  <a class="dropdown-item" href="/New York">New York</a>
-			  <a class="dropdown-item" href="/North Carolina">North Carolina</a>
-			  <a class="dropdown-item" href="/North Dakota">North Dakota</a>
-			  <a class="dropdown-item" href="/Ohio">Ohio</a>
-			  <a class="dropdown-item" href="/Oklahoma">Oklahoma</a>
-			  <a class="dropdown-item" href="/Oregon">Oregon</a>
-			  <a class="dropdown-item" href="/Pennsylvania">Pennsylvania</a>
-			  <a class="dropdown-item" href="/Rhode Island">Rhode Island</a>
-			  <a class="dropdown-item" href="/South Carolina">South Carolina</a>
-			  <a class="dropdown-item" href="/South Dakota">South Dakota</a>
-			  <a class="dropdown-item" href="/Tennessee">Tennessee</a>
-			  <a class="dropdown-item" href="/Texas">Texas</a>
-			  <a class="dropdown-item" href="/Utah">Utah</a>
-			  <a class="dropdown-item" href="/Vermont">Vermont</a>
-			  <a class="dropdown-item" href="/Virginia">Virginia</a>
-			  <a class="dropdown-item" href="/Washington">Washington</a>
-			  <a class="dropdown-item" href="/West Virginia">West Virginia</a>
-			  <a class="dropdown-item" href="/Wisconsin">Wisconsin</a>
-			  <a class="dropdown-item" href="/Wyoming">Wyoming</a>
-			</div>
-		  </li>
-		</ul>
-	  </div>
-		
-		
-	
-		<!--About button -->
-		<div class = "nav navbar-nav nav-right">
-			<a class="nav-link" href="/about">About</a>
-		</div>
-	</div>
-</nav>
-
-
+<%- include ("partials/header") %>
+<!-- Load customized css -->
+<link rel="stylesheet" href="/stylesheets/statemap.css">
 
 <div class="map-container">
 	<div id='map'></div>
 	
 	<div class='map-overlay' id='state-name'>
 		<div id="state-name-wrapper">
-			<h1><%= stateName  %> State</h1>
+			<h1><%= stateName  %></h1>
 		</div>
 	</div>
 	
@@ -136,19 +53,21 @@
 				['get', 'Confirmed'],
 				0,'#ffffff',
 				100,
-				'#FAD7D9',
+				'#E1B054',
 				500,
-				'#F6BDC0',
+				'#DA9B4C',
 				1000,
-				'#F1959B',
+				'#D38543',
 				5000,
-				'#F07470',
+				'#CC703B',
 				10000,
-				'#EA4C46',
+				'#C55A33',
 				50000,
-				'#DC1C13',
+				'#BE452B',
 				100000,
-				'#b10000'
+				'#B72F22',
+				300000,
+				'#B01A1A'
 				],
 				'fill-opacity': 0.95
 				}
@@ -190,8 +109,8 @@
 		
 		
 	//create a legand for the map
-	var layers = ['0-100','100-500', '500-1000', '1000-5000', '5000-10000', '10000-50000', '50000+'];
-	var colors = ['#FAD7D9' ,'#F6BDC0','#F1959B', '#F07470', '#EA4C46', '#DC1C13', '#c40000'];
+	var layers = ['0-100','100-500', '500-1,000', '1,000-5,000', '5,000-10,000', '10,000-50,000', '50,000-100,000','100,000+'];
+	var colors = ["#E1B054","#DA9B4C","#D38543","#CC703B","#C55A33","#BE452B","#B72F22","#B01A1A"];
 		
 	for (i = 0; i < layers.length; i++) {
 	  var layer = layers[i];
