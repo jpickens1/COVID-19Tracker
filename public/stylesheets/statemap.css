@@ -6,8 +6,8 @@
   bottom:5%;
   text-align:left;
   font-size:0.8vw;
-  height: 22%;
-  width: 10%;
+  height: fit-content;
+  width: fit-content;
   background-color: white;
 }
 

@@ -68,14 +68,15 @@ router.get("/",function(req,res){
                 state_border_data['features'].forEach(function(state){
                     var fips_raw= state['properties']['GEO_ID'];
                     var fips_target = String(Number(fips_raw.slice(fips_raw.length - 2)));
-                    console.log("fips target:",fips_target);
+                    //console.log("fips target:",fips_target);
                     
                     
                     data['features'].forEach(function(location){
                         if (parseInt(location['properties']['FIPS']) ==fips_target){
-                            state['properties']['Confirmed'] = Number(location['properties']['Confirmed']);
-                            state['properties']['Deaths'] = Number(location['properties']['Deaths']);
-                            state['properties']['Active'] = Number(location['properties']['Active']);
+                            state['properties']['Incident_Rate'] = parseInt(Number(location['properties']['Incident_Rate']));
+                            state['properties']['Case_Fatality_Ratio'] = Number(location['properties']['Case_Fatality_Ratio']).toFixed(2);
+                            
+                           
 
                         
                         }
@@ -150,9 +151,10 @@ router.get("/:stateName",function(req,res){
                     
                     data['features'].forEach(function(location){
                     if (location['properties']['FIPS'] ==fips_target){
-                        county['properties']['Confirmed'] = Number(location['properties']['Confirmed']);
-                        county['properties']['Deaths'] = Number(location['properties']['Deaths']);
-                        county['properties']['Active'] = Number(location['properties']['Active']);
+                        county['properties']['Confirmed'] =Number(location['properties']['Confirmed']);
+                        county['properties']['Case_Fatality_Ratio'] = Number(location['properties']['Case_Fatality_Ratio']).toFixed(2);
+                        
+
                         }
                     });
                     
@@ -160,7 +162,7 @@ router.get("/:stateName",function(req,res){
                 fs.writeFile ("./public/data/county.geojson", JSON.stringify(county_border_data), function(err) {
                     if (err) throw err;
                     console.log('complete');
-                    console.log("state FIPS: "+stateFIPS);
+                    //console.log("state FIPS: "+stateFIPS);
                     console.log(state_coord);
                     res.render("statemap", {stateName: stateName,stateFIPS: stateFIPS, state_coord: state_coord,state_zoom: state_zoom, last_update: last_update});
                 });

@@ -12,7 +12,7 @@
 	</div>
 	
 	<div class='map-overlay' id='features'>
-		<h2>COVID-19 Case Counts</h2>
+		<h2>COVID-19 Statistics</h2>
 		<div id='prompt'><p>Hover over a county!</p></div>
 	</div>
 	<div class='map-overlay' id='legend-wrap'>
@@ -141,7 +141,7 @@
 			 if (state[0].properties.Confirmed == undefined){
 				 document.getElementById('prompt').innerHTML = '<h3><strong>' + state[0].properties.NAME + ' County </strong></h3><p><strong><em> Data for this county is unavailable at this time</em></p>';
 			 }else{
-				 document.getElementById('prompt').innerHTML = '<h3><strong>' + state[0].properties.NAME + ' County </strong></h3><p><strong><em>Confirmed: ' + state[0].properties.Confirmed + '</strong> people</em></p><p><strong><em>Deaths: ' + state[0].properties.Deaths + '</strong> people</em></p><p><strong><em>Active: ' + state[0].properties.Active + '</strong> people</em></p>';
+				 document.getElementById('prompt').innerHTML = '<h3><strong>' + state[0].properties.NAME +' County</strong></h3><p><strong><em>Confirmed: </strong> '+ state[0].properties.Confirmed + ' peoople</p><p><strong><em>Fatality Rate: </strong>' + state[0].properties.Case_Fatality_Ratio + ' %</em></p>';
 			 }
 			
 		} else {
